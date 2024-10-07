@@ -18,9 +18,12 @@
     
     <link rel="stylesheet" href="styles.css" type="text/css">
     
-    
+    <!--Chart.js java script-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">
+        
+    </script>
     <!--My code after the Leaflet information-->
-    <script async defer src="brides.js"></script>
+    <script async defer src="bridges.js"></script>
     
 </head>
 <body>
@@ -32,9 +35,14 @@
 
 <div id="bridge-map"></div>
 
+<div id="previewPopup">
+    <div id="previewHTML"></div>
+    <img id="previewImage" alt="" src="">
+</div>
 
+<!--Canvas element for my chart-->
 
-
+<canvas id="bridgeChart" width="300" height="70"></canvas>
 
 
 
